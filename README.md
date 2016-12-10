@@ -1,7 +1,7 @@
 
 # My portfolio
 
-My name is [Dan Nguyen](http://twitter.com/dancow)
+My name is [Himanshu Shukla](https://himanshu-shukla.github.io)
 
 * [Bastards Book of Regular Expressions](http://regex.bastardsbook.com/)  - A free ebook on how to use regular expressions for everyday informational purposes
 
