@@ -6,6 +6,8 @@
     <title>Portfolio Himanshu-shukla</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-dark.css">
+	  <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="javascripts/respond.js"></script>
     <!--[if lt IE 9]>
@@ -18,60 +20,111 @@
 
   </head>
   <body>
-      <!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html">Solid State</a></h1>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
 
-				<!-- Menu -->
-					<nav id="menu">
-						<div class="inner">
-							<h2>Menu</h2>
-							<ul class="links">
-								<li><a href="index.html">Go To Top</a></li>
+        <h1> <div class="container">
 
-							</ul>
-							<a href="#" class="close">Close</a>
-						</div>
-		 			</nav>
-    
-    
-    <div class="wrapper">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"  >
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
 
-      <section>
-        <div id="title">
-          <h1>Himanshu Shukla</h1>
-          <p></p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/Himanshu-shukla">Himanshu-shukla</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </nav>
+
+            <div class="wrapper">
+                <section>
+                    <div id="title"></div>
+                </section>
+            </div>
+            <div class="row">
+                <div class="col-sm-5">
+                    <img src="css/Him.jpg" class="img-circle img-responsive"/>
+                </div>
+            </div>
+
+            <div id="accordian" class="panel-group">
+                <div class="panel panel-danger">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            <span class="glyphicon glyphicon-menu-down"></span>
+                            <a href="#panelone" data-toggle="collapse" data-parent="#according">Introduction</a>
+                        </h3>
+                    </div>
+                    <div id="panelone" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <ul>
+                                <li>india</li>
+                                <li>china</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-danger">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            <span class="glyphicon glyphicon-menu-down"></span>
+                            <a href="#paneltwo" data-toggle="collapse" data-parent="#according">Skills</a>
+                        </h3>
+                    </div>
+                    <div id="paneltwo" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <img src="css/images.png" class="img-responsive"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-danger">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            <span class="glyphicon glyphicon-menu-down"></span>
+                            <a href="#panelthree" data-toggle="collapse" data-parent="#according">Profiles</a>
+                        </h3>
+                    </div>
+                    <div id="panelthree" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="">
+                                <a href="#">       
+                                    <button class="btn btn-block btn-primary">Facebook</button>
+                                </a>
+                                <a href="#">
+                                    <button class="btn btn-block btn-danger">Gmail</button>
+                                </a>
+                                <a href="#">
+                                    <button class="btn btn-block btn-success">Github</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h4>Contact Me:</h4>
+        <div class="row">
+            <div class="col-sm-5 ">
+                <form id="form" class="col-sm-offset-2">
+                    <label class="form-group form-group-sm">    Name:  </label>
+                    <input type="text" class="form-control"/>
+                    <label class="form-group form-group-sm">    Email:</label>
+                    <input type="text" class="form-control"/>
+                    <label class="form-group form-group-sm">    Query:  </label>
+                    <input type="text" class="form-control"/><br/>
+                    <input type="submit" class="btn btn-success"/>
+                </form>
+            </div>
         </div>
 
-        <h1>
-<a id="my-portfolio" class="anchor" href="#my-portfolio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>My portfolio</h1>
-
-<p>My name is <a href="https://himanshu-shukla.github.io">Himanshu Shukla</a></p>
-
-<ul>
-<li><p><a href="http://regex.bastardsbook.com/">Bastards Book of Regular Expressions</a>  - A free ebook on how to use regular expressions for everyday informational purposes</p></li>
-<li><p><a href="http://tumblr.eyeheartnewyork.com">Eye Heart New York</a> - A Tumblr of my New York photos</p></li>
-<li><p><a href="http://iheartnymuseums.com/">I Heart NY Museums</a> - A really old interactive map showing open/free hours at local museums</p></li>
-</ul>
-
-<p>A picture of someone playing the didgerido</p>
-
-<p><img src="http://i.imgur.com/2i35DTo.jpg" alt="alt text"></p>
-
-<p>Here's video of that performance:</p>
-
-
-      </section>
-
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
   </body>
 </html>
